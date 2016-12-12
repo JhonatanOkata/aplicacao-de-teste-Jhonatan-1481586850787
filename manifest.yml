@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-Jhonatan
+  host: aplicacao-de-teste-Jhonatan
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-Jhonatan-AdvancedMobileAccess
+  - aplicacao-de-teste-Jhonatan-imfpush
+  - aplicacao-de-teste-Jhonatan-cloudantNoSQLDB
